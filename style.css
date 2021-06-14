@@ -65,16 +65,18 @@ ul{
 
 /* Content part */
 
-.container .content{
+/* .container*/ .content{
 
     display: flex;
     flex-direction: row;
+    width: 100%;
     max-width: 1100px;
     margin-top: 20px;
     margin-bottom: 10px;
     align-items: center;
     text-align: center;
     justify-content:center;
+    font-weight: bold;
 
 }
 
@@ -87,12 +89,6 @@ ul{
 .content .text h3{
       color: #e2e279;
 }
-
-.content{
-    font-weight: bold;
-    justify-content: space-evenly;
-}
-
 
 .container .content .headshot img {
     justify-content: flex-start;
