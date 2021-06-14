@@ -48,6 +48,7 @@ ul{
 
 .main-nav ul {
     display: flex;
+    justify-content: flex-end;
 }
 
 .main-nav ul li {
@@ -84,6 +85,11 @@ ul{
 
 .content .text h3{
       color: #e2e279;
+}
+
+.content{
+    font-weight: bold;
+    justify-content: space-evenly;
 }
 
 
