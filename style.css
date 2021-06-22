@@ -126,8 +126,13 @@ ul{
         opacity: 0.3;
     }
 
-    .container{
-        
+    .main-nav .logo{
+        margin-top: -20px;
+        align-items: center;
+      }
+
+    .main-nav .show{
+        display: none;
     }
 
     body{
@@ -144,8 +149,12 @@ ul{
     }
 
     .content{
-        display: flex;
-        flex-direction: column;
+        width: 100%;
+        max-width: 1100px;
+    }
+
+    .content .text{
+        margin-top: 20px;
     }
 
     .container .content .show-image{
