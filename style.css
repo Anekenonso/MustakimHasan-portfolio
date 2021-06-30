@@ -116,6 +116,12 @@ ul{
 
 /* Responsiveness */
 
+@media (max-width: 900){
+    .main-nav .show{
+        display: none;
+    }
+}
+
 @media (max-width: 700px){
 
     .menu-btn{
@@ -126,14 +132,14 @@ ul{
         opacity: 0.3;
     }
 
+    .main-nav .show{
+        display: none;
+    }
+
     .main-nav .logo{
         margin-top: -20px;
         align-items: center;
       }
-
-    .main-nav .show{
-        display: none;
-    }
 
     body{
         background: url('./img/background2.png') no-repeat
